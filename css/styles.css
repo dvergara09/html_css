@@ -115,3 +115,14 @@ nav li a:hover {
 .contenido{
   padding: var(--space);
 }
+.footer{
+  display: flex;
+  position: fixed;
+  background-color: #313337;
+  color: var(--white-color);
+  width: 100%;
+  padding: var(--space);
+  left: 0;
+  bottom: 0;
+  justify-content: space-between;
+}
