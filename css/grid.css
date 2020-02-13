@@ -18,12 +18,15 @@
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
+    align-self: center;
 }
 .three{
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 2;
+    align-self: center;
+
 }
 .four{
     grid-column-start: 5;
@@ -50,4 +53,6 @@
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 3;
+    align-self: center;
+
 }
