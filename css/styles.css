@@ -12,7 +12,7 @@
   /*tipografia*/
   --normal: 12px;
   /*shadow*/
-  --box: 0 0 2px 1px #e6e5e6;
+  --box: 0px 0px 2px 1px #e6e5e6;
 }
 
 html,
@@ -116,7 +116,7 @@ nav li a:hover {
   width: 100%;
 }
 .content_mention{
-  box-shadow: 0px 0px 2px 1px #e6e5e6;
+  box-shadow: var(--box);
 }
 .mention .text{
   padding: var(--space);

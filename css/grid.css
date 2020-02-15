@@ -1,3 +1,9 @@
+@import 'styles.css';
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -54,5 +60,34 @@
     grid-row-start: 3;
     grid-row-end: 3;
     align-self: center;
+}
 
+/* venta */
+.item1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-content: center;
+    align-self: center;
+}
+.item_container{
+    text-align: center;
+}
+.item2{
+    padding: var(--space);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    align-self: center;
+    justify-content: center;
+    box-shadow: var(--box);
+}
+form{
+    padding: var(--space);
+    display: grid;
+}
+button{
+  background-color: var(--green-color);
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-weight: bold;
 }
