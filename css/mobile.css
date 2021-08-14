@@ -1,0 +1,6 @@
+@media(max-width: 600px){
+	.products{
+		display: inherit;
+		height: auto;
+	}
+}
